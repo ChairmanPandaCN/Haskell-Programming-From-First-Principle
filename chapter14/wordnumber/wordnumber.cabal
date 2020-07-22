@@ -1,0 +1,43 @@
+name:                wordnumber
+version:             0.1.0.0
+description:         A reimplementation of a quickCheck exercise from the book "Learn haskell from first principle"
+license:             BSD3
+license-file:        LICENSE
+author:              LSK
+maintainer:          LSK
+copyright:           2020 LSK
+category:            Text
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+library
+  exposed-modules: WordNumber
+  ghc-options:       -Wall -fwarn-tabs  
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5, containers, QuickCheck
+  default-language: Haskell2010
+
+executable wordnumber
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  other-modules:       WordNumber
+  ghc-options: -Wall -fwarn-tabs
+  build-depends:
+      base >=4.7 && <5
+    , QuickCheck,hspec,wordnumber
+  default-language: Haskell2010
+
+
+test-suite tests
+  ghc-options: -Wall -fno-warn-orphans
+  type: exitcode-stdio-1.0
+  main-is: tests.hs
+  hs-source-dirs:
+      test
+  build-depends:
+      base >=4.7 && <5
+    , hspec, QuickCheck,wordnumber
+  default-language: Haskell2010
