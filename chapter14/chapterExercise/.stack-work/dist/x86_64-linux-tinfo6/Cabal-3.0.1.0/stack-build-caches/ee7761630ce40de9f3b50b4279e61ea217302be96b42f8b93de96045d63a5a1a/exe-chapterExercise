@@ -1,16 +1,16 @@
-/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/chapterExercise/README.md:
-  hash: c29ed0067b06f561c9d8e4ebcd7e2f51c3c59e63eff7fa65121465a7e6cab528
-  size: 18
-  modtime: 1595390681
-/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/chapterExercise/src/Main.hs:
-  hash: 109c45ae3c0d66457fe5b0ad63de9c0021f10b00bdf710dc659d945d3e2e4d28
-  size: 68
-  modtime: 1595390681
-/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/chapterExercise/chapterExercise.cabal:
+/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/chapterExercise/chapterExercise.cabal:
   hash: db9066a2dc34ed98ce6fd396541b6002b3ae8e442aa4b2d393b7041c31fb4d52
   size: 1105
   modtime: 1595391653
-/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/chapterExercise/src/Exercises.hs:
-  hash: f821ef83ee0d4dea072d51239aa9e77dddd02216f00a431e142ff47d9987b56d
-  size: 3656
-  modtime: 1595406539
+/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/chapterExercise/src/Main.hs:
+  hash: 109c45ae3c0d66457fe5b0ad63de9c0021f10b00bdf710dc659d945d3e2e4d28
+  size: 68
+  modtime: 1595390681
+/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/chapterExercise/README.md:
+  hash: c29ed0067b06f561c9d8e4ebcd7e2f51c3c59e63eff7fa65121465a7e6cab528
+  size: 18
+  modtime: 1595390681
+/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/chapterExercise/src/Exercises.hs:
+  hash: 16016326c5defb79d3d0cc57bddf4c8b7c459dee8e1d7e1f7cfd094f82370929
+  size: 3794
+  modtime: 1595406670

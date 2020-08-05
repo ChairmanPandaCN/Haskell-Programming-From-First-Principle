@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/bin"
-libdir     = "/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/lib/x86_64-linux-ghc-8.8.3/addition-0.1.0.0-1fiuqmateLT1gFDne76kh6"
-dynlibdir  = "/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/lib/x86_64-linux-ghc-8.8.3"
-datadir    = "/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/share/x86_64-linux-ghc-8.8.3/addition-0.1.0.0"
-libexecdir = "/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/libexec/x86_64-linux-ghc-8.8.3/addition-0.1.0.0"
-sysconfdir = "/home/chmnpanda/Desktop/code/Haskell-Book/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/etc"
+bindir     = "/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/bin"
+libdir     = "/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/lib/x86_64-linux-ghc-8.8.3/addition-0.1.0.0-1fiuqmateLT1gFDne76kh6"
+dynlibdir  = "/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/lib/x86_64-linux-ghc-8.8.3"
+datadir    = "/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/share/x86_64-linux-ghc-8.8.3/addition-0.1.0.0"
+libexecdir = "/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/libexec/x86_64-linux-ghc-8.8.3/addition-0.1.0.0"
+sysconfdir = "/home/chmnpanda/Desktop/code/Haskell-Programming-From-First-Principle/chapter14/addition/.stack-work/install/x86_64-linux-tinfo6/62d3b9c13e664827bc5c024cbfdcbadb6cb2f4b25639a3412f822a1dc179279f/8.8.3/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "addition_bindir") (\_ -> return bindir)
